@@ -1,0 +1,135 @@
+@import "./font.css";
+
+/* BASIC CONFIG */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* BASIC CONFIG */
+
+
+/* HERO */
+.hero {
+    background: url(../images/batareika.jpg) no-repeat center/cover;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.hero__logo {
+    padding-left: 590px;
+    padding-top: 50px;
+}
+
+.hero__title-first {
+    padding-top: 62px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 80px;
+    font-variant: small-caps;
+}
+
+.hero__desk {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.hero__sm-logo {
+    padding-left: 530px;
+}
+
+.hero__order {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 40px;
+}
+
+.hero__content {
+    text-align: center;
+}
+
+.hero__social {
+    display: block;
+    padding-left: 590px;
+    padding-top: 120px;
+}
+
+/* HERO */
+
+
+/* POST */
+.post {
+    max-width: 1400px;
+    height: 100vh;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.post__container {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 80px 360px;
+    background-color: rgb(133, 141, 141)133, 141, 141);
+}
+
+.post__img {
+    background: url(../images/smallfon.jpg) no-repeat center/cover;
+    width: 320px;
+    height: 350px;
+}
+
+.post__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 60px;
+    color: #868585;
+}
+
+.post__title {
+    width: 510px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.post__desc {
+    width: 510px;
+    height: 76px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+
+}
+
+/* POST */
